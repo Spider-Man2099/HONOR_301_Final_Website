@@ -12,3 +12,9 @@ main {
   border-color: white;
   background-color: cornflowerblue;
 }
+
+h1{
+
+  text-align: text-top; 
+  margin-top: -460px; 
+}

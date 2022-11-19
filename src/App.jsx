@@ -14,8 +14,7 @@ export default function App() {
       
       <Heading/>
       
-      React ⚛️ + Vite ⚡ + Replit 🌀
-      Hi my friends? 
+    
      
     </main>
   )

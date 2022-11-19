@@ -8,7 +8,7 @@ function Heading(){
    
    <div className = "heading">
      
-     HI
+     <h1>Life Lion</h1>
      
    </div>
   

@@ -1,3 +1,20 @@
+body{
+
+  background-color: white; 
+  background-image: url("./public/light-clouds-mountains-4k-ku-1920x1080.jpg"); 
+}
+
+img{
+
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  margin-top: 75px; 
+  max-width: 100%;
+  height: auto;
+}
+
+
 main {
   text-align: center;
   vertical-align: center;
@@ -10,6 +27,7 @@ main {
   width: 100%; height: 50px;
   border-style: solid;
   border-color: white;
+  border-radius: 10px; 
   background-color: cornflowerblue;
 }
 
@@ -17,4 +35,44 @@ h1{
 
   text-align: text-top; 
   margin-top: -460px; 
+  font-style: italic; 
 }
+
+.names{
+
+  margin-top: -990px; 
+  font-size: 15px; 
+  text-align: left; 
+  
+}
+
+@media only screen and (min-width: 1601px){
+
+  h1{
+
+    margin-top: -460px; 
+  }
+
+  .names{
+
+    margin-top: -980px; 
+  }
+}
+/*Laptop screens*/
+@media only screen and (min-width: 800px) and (max-width: 1600px){
+
+      h1{
+    
+        margin-top: -350px; 
+      }
+    
+      .names{
+    
+        margin-top: -780px; 
+  }
+
+ 
+}
+/**
+Need to add adjustments for different size screens 
+*/

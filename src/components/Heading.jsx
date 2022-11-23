@@ -1,7 +1,7 @@
 import '../App.css'
 
 
-function Heading(){
+export default function Heading(){
 
   return(
 
@@ -18,4 +18,5 @@ function Heading(){
   
 }
 
-export {Heading};
+
+

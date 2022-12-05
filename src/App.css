@@ -18,6 +18,17 @@ img{
   height: auto;
 }
 
+.footer {
+  
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f9ebeb;
+  color: black;
+  font-style: italic; 
+  text-align: center;
+  opacity: 0.85; 
+}
 
 main {
   text-align: center;
@@ -45,13 +56,132 @@ main {
   opacity: 0.90; 
 }
 
+.B2Inside{
+
+  width: 900px; 
+  height: 500px; 
+  background-color: white; 
+  border-radius: 10px; 
+  opacity: 0.90; 
+  
+}
+
+.B3Inside{
+
+  width: 900px; 
+  height: 500px; 
+  background-color: white; 
+  border-radius: 10px; 
+  opacity: 0.90; 
+  
+}
+
+B4Inside{
+
+  width: 900px; 
+  height: 500px; 
+  background-color: white; 
+  border-radius: 10px; 
+  opacity: 0.90; 
+  
+}
+
+h1.copterName{
+
+  position: absolute; 
+  left: 820px; 
+  color: black; 
+}
+
+h2.price{
+
+  position: absolute; 
+  color: black; 
+  font-style: italic; 
+  left: 740px;
+  top: 200px; 
+   
+}
+
+.simpleB1{
+
+  position: absolute; 
+  
+}
+
+.simpleB2{
+
+  position: absolute; 
+  left: 700px; 
+  height: 700px; 
+  width: 600px; 
+  
+}
+
+.simpleB3{
+
+  position: absolute; 
+  left: 960px; 
+  top: 1250px; 
+  height: 700px; 
+  width: 600px; 
+  
+}
+
+.simpleB4{
+
+  position: absolute; 
+  left: 300px; 
+  top: 1400px; 
+  height: 900px; 
+  width: 700px; 
+}
+
+h3.descr{
+
+  position: absolute; 
+  color: black; 
+  left: 740px; 
+  top:300px; 
+}
+
 img.b1{
 
-  height: 440px; 
+  height: 400px; 
   width: 400px;
   position: absolute; 
   top: 75px;
   left: 320px; 
+}
+
+img.b2{
+
+ height: 400px; 
+ width: 400px;
+ position: absolute; 
+ top: 75px;
+ left: 320px; 
+  
+}
+
+img.b3{
+
+  height: 400px; 
+  width: 400px;
+  position: absolute; 
+  top: 75px;
+  left: 320px; 
+  
+}
+
+img.b4{
+
+  height: 400px; 
+  width: 400px;
+  position: absolute; 
+  top: 75px;
+  left: 320px; 
+  
 }
 
 h1{

@@ -1,10 +1,10 @@
 import * as React from 'react';
 import Backdrop from '@mui/material/Backdrop';
 import CircularProgress from '@mui/material/CircularProgress';
-import B1Inside from './B1Inside.jsx'; 
+import B4Inside from './B4Inside.jsx'; 
 import Button from '@mui/material/Button';
 
-export default function SimpleBackdrop() {
+export default function SimpleBackdrop3() {
   const [open, setOpen] = React.useState(false);
   const handleClose = () => {
     setOpen(false);
@@ -14,10 +14,10 @@ export default function SimpleBackdrop() {
   };
 
   return (
-    <div className="simpleB1">
+    <div className="simpleB4">
       <Button onClick={handleToggle}>
         
-        <img src = "./public/helicopter.jpg"/>
+        <img src = "./public/Bell_212.jpg"/>
       
       </Button>
       <Backdrop
@@ -26,9 +26,8 @@ export default function SimpleBackdrop() {
         onClick={handleClose}
       >
        
-        <B1Inside/>
+        <B4Inside/>
       </Backdrop>
-
-      </div>
+    </div>
   );
 }

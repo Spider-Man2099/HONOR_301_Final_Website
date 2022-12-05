@@ -12,6 +12,7 @@ export default function Heading(){
      <h2 className="about">About Us</h2>
      <h2 className="buy">Buy</h2>
      <h2 className="sell">Sell</h2>
+     
    </div>
   
   
